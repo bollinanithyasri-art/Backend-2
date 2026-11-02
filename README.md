@@ -1,7 +1,7 @@
 # Backend Development Lab
 
 ## Introduction
-This project is developed as part of my Backend Development Lab. It demonstrates the basic concepts of backend development using Node.js and Express.js.
+This project is developed as part of my Backend Development Lab. It demonstrates basic backend development using Node.js serverless functions.
 
 ## Objectives
 - Understand backend development.
@@ -13,20 +13,19 @@ This project is developed as part of my Backend Development Lab. It demonstrates
 
 ## Technologies Used
 - Node.js
-- Express.js
 - JavaScript
 - Visual Studio Code
 - Git and GitHub
-- Render
+- Vercel
 
 ## Features
-1. Created an HTTP server.
+1. Created a serverless API handler.
 2. Implemented Home route.
 3. Implemented About route.
 4. Implemented Time route.
 5. Handled HTTP GET requests.
 6. Tested API endpoints.
-7. Deployed the backend application using Render.
+7. Deployed the backend application using Vercel.
 
 ## API Endpoints
 
@@ -56,18 +55,18 @@ Install dependencies:
 npm install
 ```
 
-Start the server using the start command configured in package.json:
+For local development, the API can be deployed with the Vercel CLI:
 
 ```bash
-npm start
+npx vercel dev
 ```
 
 ## Learning Outcomes
 - Learned how backend servers work.
 - Understood HTTP request and response handling.
-- Practised creating routes using Express.js.
+- Practised creating routes using Node.js.
 - Learned Git and GitHub version control.
-- Understood backend deployment using Render.
+- Understood backend deployment using Vercel.
 
 ## Author
 **B. Nithya Sri**

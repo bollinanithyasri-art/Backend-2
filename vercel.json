@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/api/index?route=home" },
+    { "source": "/about", "destination": "/api/index?route=about" },
+    { "source": "/time", "destination": "/api/index?route=time" }
+  ]
+}
